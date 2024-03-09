@@ -1,0 +1,102 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.github-repos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.language-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+  padding: 0px;
+  width: 100%;
+}
+
+.repos-list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.repos-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+}
+
+.failure-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.failure-img {
+  width: 100%;
+}
+
+.failure-heading {
+  color: #1e293b;
+  font-family: 'Lobster';
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .repos-list-card {
+    width: 76%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+
+  .language-list {
+    max-width: 600px;
+  }
+  .repos-list-card {
+    width: 90%;
+  }
+
+  .repos-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .failure-card {
+    width: 86%;
+  }
+
+  .failure-img {
+    width: 70%;
+  }
+
+  .failure-heading {
+    font-size: 54px;
+  }
+}
